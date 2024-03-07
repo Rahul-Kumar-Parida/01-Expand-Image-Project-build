@@ -231,7 +231,7 @@
   background-image: url(https://images.pexels.com/photos/457491/pexels-photo-457491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 2600px) and (max-width: 4000px) {
   body {
     background: linear-gradient(rgb(249, 199, 161), rgb(251, 251, 150));
   }
@@ -274,7 +274,7 @@
     overflow: hidden;
     height: 80vh;
     border-radius: 50px;
-    flex: 1;
+    flex: 3;
     position: relative;
     transition: flex 0.9s ease-in;
     border: 2px solid black;
@@ -300,7 +300,7 @@
     margin-left: 30px;
   }
   p {
-    margin-right: 80%;
+    margin-right: 70%;
     font-size: 40px;
     font-family: cursive;
     font-weight: 800;
